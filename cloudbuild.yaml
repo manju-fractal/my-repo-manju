@@ -20,7 +20,7 @@ steps:
     entrypoint: 'gcloud'
     args:
       [
-        'run', 'deploy', 'cloud-run-app',
+        'run', 'deploy', 'cloud-run-app-manju',
         '--image', 'us-central1-docker.pkg.dev/$PROJECT_ID/my-repo-manju/cloud-run-app:$SHORT_SHA',
         '--region', 'us-central1',
         '--platform', 'managed',
